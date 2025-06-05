@@ -35,4 +35,17 @@ _ Pedir 2 helados
 - Modal de busqueda de conductor mas cambio de estado a informacion del viaje
 
 
+Ejecucion de Pruebas
 
+-Para ejecutar las pruebas, usa el siguiente comando en la terminal
+Pystest tests/
+- Si las pruebas estan en una carpeta especifica, ajusta la ruta
+ Pystest folder/de/proyecto/tests.y
+
+Requisitos previos
+
+Antes de ejecutar las pruebas, asegurate de:
+
+- Tener Pytest instalado (pip install pytest)
+- Contar con selenium si usas pruebas de navegadores (pip intall selenium)
+- Configurar correctamenre los driver para Chrome o Firefox, segun corresponda.
